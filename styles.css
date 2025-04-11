@@ -18,7 +18,7 @@
   }
   
   * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
   }
@@ -28,7 +28,7 @@
   }
   
   body {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     background-color: var(--background);
     color: var(--foreground);
     line-height: 1.6;
@@ -115,7 +115,7 @@
   
   /* Section styles */
   section {
-    padding: 5rem 0;
+    padding: 6rem 0;
   }
   
   h2 {
@@ -474,8 +474,11 @@
   /* Contact section */
   .section-contact {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
+  
   
   .contact-content {
     max-width: 32rem;

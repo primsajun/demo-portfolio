@@ -99,10 +99,10 @@ function initDynamicBackground() {
     
     getRandomColor() {
       const colors = [
-        "rgb(161, 49, 173)", // Purple
-        "rgb(190, 27, 185)", // Blue
-        "rgb(97, 45, 210)", // Pink
-        "rgb(55, 170, 224)", // Green
+        "rgb(161, 49, 173)", 
+        "rgb(190, 27, 185)", 
+        "rgb(97, 45, 210)", 
+        "rgb(55, 170, 224)", 
       ];
       return colors[Math.floor(Math.random() * colors.length)];
     }
